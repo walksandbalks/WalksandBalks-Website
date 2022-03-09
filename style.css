@@ -299,18 +299,26 @@ iframe {
 
 
 .bballImg {
-  height: 100px;
+  height: 130px;
   width: auto;
 }
 
 .bballImg2 {
-  height: 50px;
+  height: 80px;
   width: auto;
 }
 
 @media screen and (max-width:1200px){
     .inner-container {
       padding: 80px;
+    }
+    .bballImg {
+      height: 100px;
+      width: auto;
+    }
+    .bballImg2 {
+      height: 50px;
+      width: auto;
     }
 }
 
@@ -323,6 +331,14 @@ iframe {
     width: 100%;
     padding: 0px;
   }
+  .bballImg {
+    height: 100px;
+    width: auto;
+  }
+  .bballImg2 {
+    height: 50px;
+    width: auto;
+  }
 }
 
 @media screen and (max-width:600px){
@@ -333,6 +349,14 @@ iframe {
   .inner-container {
     width: 100%;
     padding: 40px;
+  }
+  .bballImg {
+    height: 70px;
+    width: auto;
+  }
+  .bballImg2 {
+    height: 40px;
+    width: auto;
   }
 }
 
