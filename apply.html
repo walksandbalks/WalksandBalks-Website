@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Walks & Balks</title>
+    <!-- Firebase Stuff Experimental -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16"/>
+
+</head>
+<body class="apply2">
+    <style>
+    </style>
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      
+        <a class="navbar-brand" href="index.html">
+        <img src="MainImages/logo.png"
+         width="70" height="70" alt="Logo"></a>
+         <span class="logo-title mr-auto">Walks & Balks</span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photos.html">Photos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="apply.html">Apply</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>  
+        </div>
+        </a>
+    </nav>  
+  </div>
+  </div>
+
+  <div class="applicationForm2">
+      <div class="applicationMain2">
+        <img class="appMainLogo" src="MainImages/logo.png">
+        <h2 class="appMainHeader">Application Form</h2>
+        <hr>
+        <form class="was-validated" novalidate>
+        <h3>Full Name</h3>
+        <div class="form-label-group">
+            <input type="text" id="inputFirst" class="form-control" placeholder="First" required autofocus="">
+            <label for="inputFirst">First Name</label>
+            <div class="invalid-feedback" id="firstNameFeed"></div>
+        </div>
+        <div class="form-label-group">
+            <input type="text" id="inputLast" class="form-control" placeholder="Last" required="" autofocus="">
+            <label for="inputLast">Last Name</label>
+            <div class="invalid-feedback" id="lastNameFeed"></div>
+        </div>
+        <h3>Contact Info</h3>
+        <div class="form-label-group">
+            <input type="text" id="inputPhone" class="form-control" placeholder="Phone" required="" autofocus="">
+            <label for="inputPhone">Phone Number</label>
+            <div class="invalid-feedback" id="phoneFeed"></div>
+        </div>
+        <div class="form-label-group">
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="">
+            <label for="inputEmail">Email Address</label>
+            <div class="invalid-feedback" id="emailFeed"></div>
+        </div>
+        </form>
+        <h3>Current Address</h3>
+        <div class="form-label-group">
+            <input type="text" id="inputStreet" class="form-control" placeholder="Street" required="" autofocus="">
+            <label for="inputStreet">Street Address</label>
+            <div class="invalid-feedback" id="streetFeed"></div>
+        </div>      
+        <div class="form-label-group">
+            <input type="text" id="inputStreet2" class="form-control" placeholder="Street2" required="" autofocus="">
+            <label for="inputStreet2">Street Address Line 2</label>
+        </div>
+        <form class="was-validated" novalidate>
+        <div class="form-label-group">
+            <input type="text" id="inputCity" class="form-control" placeholder="City" required="" autofocus="">
+            <label for="inputCity">City</label>
+            <div class="invalid-feedback" id="cityFeed"></div>
+        </div>
+        </form>
+        <div class="form-label-group">
+            <input type="text" id="inputState" class="form-control" placeholder="State" required="" autofocus="">
+            <label for="inputState">State</label>
+            <div class="invalid-feedback" id="stateFeed"></div>
+        </div>
+        <div class="form-label-group">
+            <input type="text" id="inputZip" class="form-control" placeholder="Zip" required="" autofocus="">
+            <label for="inputZip">Zip Code</label>
+            <div class="invalid-feedback" id="zipFeed"></div>
+        </div>
+        <br>
+        <br>
+        <div class="form-label-group">
+            <textarea type="textarea" id="additionalComments" class="form-control" id="additionalComments"  placeholder="Add" required="" autofocus=""></textarea>
+            <label for="additionalComments">Additional Comments</label>
+        </div>
+        <br>
+        <!--<button class="btn btn-primary" id="appSubmitBtn" type="submit" href="" role="button">Submit</a>-->
+        <button  id="appSubmitBtn">Submit</button>
+        <a id="subLink" href="submitted.html" hidden></a>
+  </div>
+
+
+<script src="main.js"></script>
+</body>
+</html>

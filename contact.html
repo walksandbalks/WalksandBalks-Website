@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Walks and Balks</title>
+    <!-- Firebase Stuff Experimental -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+
+
+    <title>Walks & Balks</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <style>
+    </style>
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      
+        <a class="navbar-brand" href="index.html">
+        <img src="MainImages/logo.png"
+         width="70" height="70" alt="Logo"></a>
+         <span class="logo-title mr-auto">Walks & Balks</span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photos.html">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="apply.html">Apply</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>  
+        </div>
+        </a>
+    </nav>  
+  </div>
+  </div>
+
+  <section class="contact">
+    <div class="content">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="containerContact">
+      <div class="contactInfo">
+        <div class="box">
+          <i class="fa fa-map-marker fa-3x" style="color: white"></i>
+          <div class="text">
+            <h1>Location</h1>
+            <p>Maple Grove, Minnesota</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-envelope fa-3x" style="color: white"></i>
+          <div class="text">
+            <h1>Email</h1>
+            <p>walks.balks@gmail.com</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-phone fa-3x" style="color: white"></i>
+          <div class="text">
+            <h1>Phone</h1>
+            <p>(612)-123-4567</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="contactForm">
+        <form>
+          <h2>Send Us A Message</h2>
+          <p>Fill out this form and we'll get back to you.</p>
+          <div class="inputBox">
+            <input type="text" name="Name" id="userName" required="required">
+            <span>Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="Email" id="userEmail" required="required">
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea name="Message" id="userMessage" required="required"></textarea>
+            <span>Type your message...</span>
+          </div>
+          <div class="inputBox">
+            <button id="submit" class="btn btn-primary" type="button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src= "contact.js"></script>
+
+  </body>
+  </html>

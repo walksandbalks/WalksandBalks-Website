@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Walks & Balks</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16"/>
+</head>
+<body class="apply">
+    <style>
+    </style>
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      
+        <a class="navbar-brand" href="index.html">
+        <img src="MainImages/logo.png"
+         width="70" height="70" alt="Logo"></a>
+         <span class="logo-title mr-auto">Walks & Balks</span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photos.html">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="umpires.html">Umpires</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>  
+        </div>
+        </a>
+    </nav>  
+  </div>
+  </div>
+
+  <div class="applicationForm">
+      <form class="applicationMain">
+          <img class="appMainLogo" src="MainImages/logo.png">
+          <h2 class="appMainHeader">Application Form</h2>
+          <hr>
+          <h3>Full Name</h3>
+          <div class="appBoxIn">
+              <input type="text" id="firstName" required="required">
+              <span>First Name</span>
+          </div>
+          <div class="appBoxOut">
+            <input type="text" id="lastName" required="required">
+            <span>Last Name</span>
+        </div>
+        <h3>Contact Info</h3>
+        <div class="appBoxIn">
+            <input type="text" id="phone" required="required">
+            <span>Phone</span>
+        </div>
+        <div class="appBoxOut">
+            <input type="text" id="email" required="required">
+            <span>Email</span>
+        </div>
+        <h3>Current Address</h3>
+        <div class="appBoxIn">
+            <input type="text" id="streetAdd" required="required">
+            <span>Street Address</span>
+        </div>
+        <div class="appBoxOut">
+            <input type="text" id="streetAdd2" required="required">
+            <span>Street Address Line 2</span>
+        </div>
+        <br>
+        <div class="appBoxIn">
+            <input type="text" id="city" required="required">
+            <span>City</span>
+        </div>
+        <div class="appBoxOut">
+            <input type="text" id="state" required="required">
+            <span>State</span>
+        </div>
+        <div class="appBoxZip">
+            <input type="text" id="zip" required="required">
+            <span>Zip Code</span>
+        </div>
+        <br>
+        <p></p>
+        <div class="addComments">
+            <textarea id="comment"></textarea>
+            <span>Additional Comments</span>
+        </div>
+        <br>
+        <a class="btn btn-primary" href="submitted.html" role="button">Submit</a>
+      </form>
+  </div>
+
+</body>

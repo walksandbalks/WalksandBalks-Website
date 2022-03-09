@@ -1,0 +1,768 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-title {
+    color: black;
+    font-family: 'Eczar', serif;
+    font-size: 150%;
+}
+
+.top-img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+iframe {
+    display: block; 
+    border: none;         
+    height: 100vh;        
+    width: 100vw;
+}
+
+.navbar {
+    opacity: 98%;
+}
+
+.containers {
+    background-color: blue;
+}
+
+.gallery {
+    margin: 10px 50px;
+    text-align: center;
+}
+.gallery img{
+    transition: 1s;
+    padding: 20px;
+    width: 200px;
+}
+.gallery img:hover {
+    transform: scale(1.4) 
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.carousel-inner {
+  height: auto;
+  
+}
+
+/*Home Page Image*/
+.img-container {
+  background-image: url(Photos/IMG_0261.jpg);
+  height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logoTop {
+  height: 30%
+}
+
+.inside {
+  color: white;
+  text-align: center;
+  /*border: 2px solid red;*/
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  margin-top: 25vh;
+  margin-bottom: auto;
+  height: 50%;
+}
+
+.insideh1 {
+  font-size: 1.75rem;
+  /*font-family: 'Eczar', serif;*/
+  text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.insideh2 {
+  margin-top: -17px;
+  /*font-family: 'Eczar', serif;*/
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+@media only screen and (max-width: 540px) {
+  .img-container {
+    height: 95vh;
+    background-image: url(Photos/IMG_0268.jpg);
+  }
+}
+
+/*Social Media Icons*/
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  /*float: left;*/
+  margin: 0 5px;
+  overflow: hidden;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: white;
+  transition: all 0.3s ease-out;
+  color: black;
+  text-align: left;
+}
+
+.wrapper .button:hover {
+  width: 200px;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+  background: #4267B2;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+  background: #E1306C;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+  background: #0072b1;
+}
+
+.wrapper .button .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+  color: white;
+}
+
+.wrapper .button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+  color: #4267B2;
+}
+
+.wrapper .button:nth-child(2) span {
+  color: #E1306C;
+}
+
+.wrapper .button:nth-child(3) span {
+  color: #0072b1;
+}
+
+  
+.container-lg {
+    background-image: url(OPImage.png);
+    text-align: center;
+    color: black;    
+    display: grid;
+    margin:  auto;
+    padding-right: 500px;
+
+}
+  
+
+.main-img {
+    opacity: 0.35;
+    transition: opacity 1s;
+    width:100%;
+    
+}
+
+.img-responsive {
+    height: 100%;
+    width: 100%;
+}
+
+.contactheader{
+    color: black;
+    font-family: 'Eczar', serif;
+    font-size: 300%;
+    padding-left: 43.5%;
+}
+
+.contacttext{
+  color: black;
+  font-family: 'Eczar', serif;
+  font-size: 150%;
+  text-align: center;
+ }
+
+.container-fluid {
+  
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-height: max-content;
+
+}
+
+
+.container-fluid h1 {
+  color: white;
+  margin-top: -450px;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 30%;
+  max-height: inherit;
+}
+
+.contain-text {
+  width: 90%;
+  max-height: 100%;
+  
+}  
+
+/*About Us Beginning*/
+.about-us {
+  background: url(Photos/IMG_0298.jpg) no-repeat left;
+  background-size: 55%;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: #E8E8E8;
+  padding: 100px;
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.3);
+}
+
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.aboutUsText {
+  font-size: 15px;
+  color: black;
+  line-height: 30px;
+
+  margin-bottom: 40px;
+}
+
+.serve {
+  text-align: center;
+}
+
+.extras {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.extraImages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bballImg {
+  height: 100px;
+  width: auto;
+}
+
+.bballImg2 {
+  height: 50px;
+  width: auto;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container {
+      padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+  .about-us {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-us {
+    padding: 0;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.3);
+  }
+  .inner-container {
+    width: 100%;
+  }
+}
+
+/* Team Info Beginning */
+.title {
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.title p {
+  font-size: 18px;
+}
+
+.card-body {
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.3);
+}
+
+.card {
+  margin: 20px 10px;
+}
+
+.card-body a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: auto;
+  font-weight: 600;
+}
+
+.card-body a:hover {
+  color: white;
+  text-decoration: none;
+}
+/*Team Info Ending*/
+
+/*Contact Page Beginning*/
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(Photos/IMG_0013.jpg);
+}
+
+.content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+}
+
+.content p {
+  font-weight: 300;
+  color: white;
+}
+
+.containerContact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.containerContact .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.contianerContact .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size:16px;
+  color: rgb(138, 124, 124);
+  flex-direction: column;
+  font-weight: 300;
+}
+
+/*edit made here h3 to h1*/
+.containerContact .contactInfo .box .text h1 {
+  font-weight: 500;
+  color: white;
+}
+
+.containerContact .contactInfo .box .text p {
+  font-weight: 500;
+  color: white;
+}
+
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: whitesmoke;
+}
+
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox input textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+  color:#e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: #00bcd4;
+}
+
+@media screen and (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+  .containerContact {
+    flex-direction: column;
+  }
+  .containerContact .cntactInfo {
+    margin-bottom: 40px;
+  }
+  .container .contactInfo,
+  .contactForm {
+    width: 100%;
+  }
+}
+/*End Contact Page*/
+
+
+.containerA {
+  position: relative;
+  background: cornsilk;
+  height: 200px;
+  width: 80%;
+  
+}
+
+/*Application Page Beginning*/
+.apply {
+  background-color: #F0F0F0;
+}
+
+.applicationForm {
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: white;
+  border: 2px solid grey;
+}
+
+.applicationMain {
+  position: relative;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 800px;
+}
+
+.appMainHeader {
+  text-align: center;
+}
+
+.appMainLogo {
+  width: 70px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.appBoxIn, .appBoxOut, .addComments, .appBoxZip {
+  display: inline-block;
+  margin-inline-end: 1px;
+  margin-bottom: 15px;
+}
+
+/*.lastNameBox {
+  margin-left: 10%;
+}*/
+
+.applicationForm span {
+  position: absolute;
+  left: 0;
+  padding: 0px 0;
+  font-size: 16px;
+  margin: 4px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.applicationForm input:focus ~ span,
+.applicationForm input:valid ~ span,
+.applicationForm textarea:focus ~ span,
+.contactForm textarea:valid ~ span {
+  color:#e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+@media screen and (min-width: 1000px) {
+  .applicationForm .appBoxOut span {
+    left: 195px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .applicationMain {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 1435px) {
+  .applicationMain .appBoxZip span {
+    left: 380px;
+  }
+}
+
+/*Appliaction Page Ending*/
+
+/*Application Pgae 2 Beginning*/
+:root {
+  --input-padding-x: .75rem;
+  --input-padding-y: .65rem;
+}
+
+.apply2 {
+  background-color: white;
+}
+
+.applicationForm2 {
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: #f5f5f5;
+  border: 2px solid grey;
+}
+
+.applicationMain2 {
+  position: relative;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 800px;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+  height: 45px;
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: 1.25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+.form-label-group textarea::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea::placeholder {
+  color: transparent;
+}
+
+.form-label-group textarea:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group textarea:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+@media screen and (max-width: 600px) {
+  .applicationMain2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.form-label-group-success {
+  color: green;
+  visibility: visible;
+  line-height: 1.5;
+}
+
+.form-label-group.error {
+  border-color: red;
+  visibility: visible;
+}
+
+/*Application Page 2 Ending*/
+
+/*Application Submission Page Beginning*/
+.thanks {
+  position: relative;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.thanksPrimary {
+  font-size: 5vw;
+}
+
+.thanksSecondary {
+  font-size: 3vw;
+}
+
+.finishBtn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+}
+
+/*Appliction Submission Page Ending*/
