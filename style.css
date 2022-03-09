@@ -273,7 +273,6 @@ iframe {
   font-size: 15px;
   color: black;
   line-height: 30px;
-
   margin-bottom: 40px;
 }
 
@@ -292,6 +291,12 @@ iframe {
   display: flex;
   justify-content: space-between;
 }
+
+.extraImages2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 
 .bballImg {
   height: 100px;
@@ -322,11 +327,12 @@ iframe {
 
 @media screen and (max-width:600px){
   .about-us {
-    padding: 0;
+    padding: 0px;
     box-shadow: 0 0 20px 7px rgba(0,0,0,0.3);
   }
   .inner-container {
     width: 100%;
+    padding: 40px;
   }
 }
 
