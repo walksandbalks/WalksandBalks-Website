@@ -316,6 +316,7 @@ iframe {
   }
   .inner-container {
     width: 100%;
+    padding: 0px;
   }
 }
 
@@ -361,6 +362,11 @@ iframe {
   color: white;
   text-decoration: none;
 }
+
+.card-img-top {
+  box-shadow: 0px -7px 20px 7px rgba(0,0,0,0.3);;
+}
+
 /*Team Info Ending*/
 
 /*Contact Page Beginning*/
