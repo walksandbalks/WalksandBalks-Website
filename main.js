@@ -163,3 +163,26 @@ function attemptLogin() {
     }
     alert("Incorrect Username or Password")
 }*/
+
+function sendEmail() {
+    var tempParams ={
+        first_name:document.getElementById("inputFirst").value,
+        last_name:document.getElementById("inputLast").value,
+        phone:document.getElementById("inputPhone").value,
+        email:document.getElementById("imputEmail").value,
+        street:document.getElementById("inputStreet").value,
+        street2:document.getElementById("inputStreet2").value,
+        city:document.getElementById("inputCity").value,
+        state:document.getElementById("inputState").value,
+        zip:document.getElementById("inputZip").value,
+        message:document.getElementById("additionalComments").value,
+    };
+
+    emailjs.send('service_4j60qtm', 'template_1wwt5d6', tempParams)
+    .then(function(res){
+        console.log("success", res.status);
+    })
+    .catch(function(error) {
+        alert("An error has occured. Your application was not submitted. Please try agian later.");
+      });
+}
