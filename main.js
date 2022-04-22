@@ -182,7 +182,4 @@ function sendEmail() {
     .then(function(res){
         console.log("success", res.status);
     })
-    .catch(function(error) {
-        alert("An error has occured. Your application was not submitted. Please try agian later.");
-      });
 }
