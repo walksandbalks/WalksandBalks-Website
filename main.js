@@ -1,33 +1,3 @@
-  /*const form = document.getElementById('form');
-  const inputFirst = document.getElementById('inputFirst');
-
-  form.addEventListener('submit', (e) => {
-      e.preventDefault();
-
-      checkInputs();
-  });
-
-  function checkInputs() {
-      //get the values from the inputs
-      const inputFirstValue = inputFirst.value.trim();
-
-      if (inputFirstValue == '') {
-          setErrorFor(inputFirst, 'First name cannot be blank');
-      }
-      else {
-          setSuccessFor(inputFirst);
-      }
-  }
-
-  function setErrorFor(input, message) {
-      const formLabel= input.parentElement;
-      const small = formLabel.querySelector('small');
-
-      small.innerText = message;
-
-      formLabel.className = 'form-label-group error';
-  }*/
-
 
   var firebaseConfig = {
     apiKey: "AIzaSyAUh8oa2MLbEswsP95RXFw_TNCokHYlr6w",
@@ -100,69 +70,6 @@
       }
   };
 
-
-  
-
-
-
-
-/*var firebaseConfig = {
-    apiKey: "AIzaSyCaNJ4vtCWULc6l-4tQsDzQL0C7HmG80Co",
-    authDomain: "walks-and-balks.firebaseapp.com",
-    databaseURL: "https://walks-and-balks.firebaseio.com",
-    projectId: "walks-and-balks",
-    storageBucket: "walks-and-balks.appspot.com",
-    messagingSenderId: "655591726415",
-    appId: "1:655591726415:web:cddf4fba66a59224d2393a",
-    measurementId: "G-CRV3G1D09B"
-  };
-
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-
-
-
-function onSignIn() {
-    window.location.replace("schedule.html")
-    return
-}
-
-
-function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function () {
-      console.log('User signed out.');
-    });
-  }
-
-
-
-
-
-
-var objAccounts = [
-    {
-        username: "matt",
-        password: "knudsen"
-    },
-    {
-        username: "max",
-        password: "smith"
-    }
-]
-
-function attemptLogin() {
-    var username = document.getElementById("inputUsername").value
-    var password = document.getElementById("inputPassword").value
-
-    for(i = 0; i < objAccounts.length; i++) {
-        if(username == objAccounts[i].username && password == objAccounts[i].password) {
-            window.location.replace("schedule.html")
-            return 
-        }
-    }
-    alert("Incorrect Username or Password")
-}*/
 
 function sendEmail() {
     var tempParams ={
