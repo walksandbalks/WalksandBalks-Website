@@ -76,7 +76,7 @@ function sendEmail() {
         first_name:document.getElementById("inputFirst").value,
         last_name:document.getElementById("inputLast").value,
         phone:document.getElementById("inputPhone").value,
-        email:document.getElementById("imputEmail").value,
+        email:document.getElementById("inputEmail").value,
         street:document.getElementById("inputStreet").value,
         street2:document.getElementById("inputStreet2").value,
         city:document.getElementById("inputCity").value,
