@@ -62,7 +62,7 @@ iframe {
 
 /*Home Page Image*/
 .img-container {
-  background-image: url(Photos/IMG_0261.jpg);
+  background-image: url(MainImages/IMG_0261.jpg);
   height: 95vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ iframe {
 @media only screen and (max-width: 540px) {
   .img-container {
     height: 95vh;
-    background-image: url(Photos/IMG_0268.jpg);
+    background-image: url(MainImages/IMG_0268.jpg);
   }
 }
 
@@ -249,7 +249,7 @@ iframe {
 
 /*About Us Beginning*/
 .about-us {
-  background: url(Photos/IMG_0298.jpg) no-repeat left;
+  background: url(MainImages/IMG_0298.jpg) no-repeat left;
   background-size: 55%;
   overflow: hidden;
   padding: 100px 0;
@@ -408,7 +408,7 @@ iframe {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(Photos/IMG_0013.jpg);
+  background: url(MainImages/IMG_0013.jpg);
 }
 
 .content h2 {
@@ -804,3 +804,13 @@ iframe {
 }
 
 /*Appliction Submission Page Ending*/
+
+footer {
+  background-color: #E8E8E8;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* #F0A05F */
