@@ -777,6 +777,19 @@ iframe {
   visibility: visible;
 }
 
+#appSubmitBtn {
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  background-color: #f5f5f5;
+  border: 2px solid #036bfc;
+  outline: 0;
+}
+
+#appSubmitBtn:hover {
+  background-color: #036bfc;
+  color: white;
+}
+
 /*Application Page 2 Ending*/
 
 /*Application Submission Page Beginning*/
@@ -812,5 +825,3 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-/* #F0A05F */
