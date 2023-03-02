@@ -62,6 +62,7 @@
               currentDate
           })
           .then (function() {
+              sendEmail();
               subLink.click(); 
           })
           .catch(function(error) {
