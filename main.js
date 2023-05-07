@@ -64,6 +64,7 @@
           .then (function() {
               sendEmail();
               subLink.click(); 
+              console.log("Successfully submitted to database");
           })
           .catch(function(error) {
             alert("An error has occured. Your application was not submitted. Please try agian later.");
@@ -89,5 +90,8 @@ function sendEmail() {
     emailjs.send('service_4j60qtm', 'template_1wwt5d6', tempParams)
     .then(function(res){
         console.log("success", res.status);
+    })
+    .catch(function(res){
+      console.log("failed", res.status);
     })
 }
