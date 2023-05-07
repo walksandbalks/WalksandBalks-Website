@@ -63,7 +63,7 @@
           })
           .then (function() {
               sendEmail();
-              subLink.click(); 
+              //subLink.click(); 
               console.log("Successfully submitted to database");
           })
           .catch(function(error) {
@@ -90,8 +90,10 @@ function sendEmail() {
     emailjs.send('service_4j60qtm', 'template_1wwt5d6', tempParams)
     .then(function(res){
         console.log("success", res.status);
+        subLink.click();
     })
     .catch(function(res){
       console.log("failed", res.status);
+      subLink.click();
     })
 }
